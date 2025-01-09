@@ -34,6 +34,9 @@ Lilas: #5f2c82 */
         border-radius: 20px;
         overflow: hidden; /* o que ficar fora da borda vai ficar cortadinho*/
         box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.995);
+
+        transition: width .3s, height .3s;
+        transition-timing-function: ease;
     }
     section#login > div#imagem{
         display: block;
