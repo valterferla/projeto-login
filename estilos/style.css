@@ -38,6 +38,15 @@ Lilas: #5f2c82 */
         transition: width .3s, height .3s;
         transition-timing-function: ease;
     }
+    section#login > div#formulario > h1  {
+        padding: 10px;
+        text-align: initial;
+        text-align: center;
+    }
+    section#login > div#formulario > p  {
+        padding: 10px;
+        text-align: initial;
+    }
     section#login > div#imagem{
         display: block;
         background:#5f2c82 url(../imagens/ponte.jpg)no-repeat ;

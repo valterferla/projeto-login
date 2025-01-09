@@ -10,41 +10,34 @@ desktop: 992px a 1200px
 grandes telas acima de:Acima de 1200px
 */
 @media screen and (min-width: 768px) and (max-width: 992px) {
-
     body {
-        background-image: linear-gradient(to top,  #49a09d, #5f2c82);
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
         width: 100vw;
     }
     section#login {
-        width: 80vw;
+        width: 70vw;
+        display: flex;
+        flex-wrap: wrap;
     }
     section#login > div#imagem {
-        float: left;
-        width: 30%;
-        height: 100%;
+        flex: 40%; /* 30% da largura */
+        height: auto; /* Altura automática */
     }
     section#login > div#formulario {
-        float: left;
-        width: 70%;
+        flex: 40%; /* 70% da largura */
     }
 }
-@media screen and  (min-width: 992px) {
+
+@media screen and (min-width: 992px) {
     section#login {
         width: 950px;
+        display: flex;
     }
-
-   section#login > div#imagem {
-    float: left;
-    width: 50%;
-    height: 100%;
-   } 
-   section#login > div#formulario {
-    float: right;
-    width: 50%;
-
-    
-
+    section#login > div#imagem {
+        flex: 50%; /* 50% da largura */
+        height: auto;
+    }
+    section#login > div#formulario {
+        flex: 50%; /* 50% da largura */
+    }
 }
-    
-   }
-   
